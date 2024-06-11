@@ -20,6 +20,7 @@ h1 {
 
 h2 {
   font-size: 48px;
+  text-align: center;
 }
 
 h3 {
@@ -30,6 +31,7 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+  text-align: center;
 }
 
 .navigation-links {
@@ -50,6 +52,7 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  text-align: center;
 }
 
 .secondary-link {
@@ -85,4 +88,9 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
 }
